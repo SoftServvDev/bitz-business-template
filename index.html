@@ -1,58 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bitz Business Template</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bitz Business Template</title>
 
-    <!-- Bootstrap CDNs -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <!-- Bootstrap CDNs -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
 
-    <!-- Custom CSS File -->
-    <link rel="stylesheet" href="./Assets/CSS/global.css">
+  <!-- Custom CSS File -->
+  <link rel="stylesheet" href="./Assets/CSS/global.css">
+
+  <script>
+
+  </script>
 
 </head>
-<body class="container-fluid">
 
-    <!-- Navigation Start -->
+<body class="container-fluid" onload="runAnimations()">
+
+  <!-- Navigation Start -->
+  <section>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Bitz</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Bitz</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Features
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Elegant Layout</a></li>
+                <li><a class="dropdown-item" href="#">Easy Editing</a></li>
+                <li><a class="dropdown-item" href="#">Working Contact Form</a></li>
+                <li><a class="dropdown-item" href="#">Other Formats</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Bitz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- Navigation End -->
+
+  <main>
+
+    <!-- Hero Start -->
+    <section>
+      <div class="container-fluid hero_container">
+        <div class="hero_dark_cover"></div>
+        <div class="hero_text_holder">
+          <h2 class="hero_headline">Bitz</h2>
+          <div class="hero_rule">
+            <hr />
+          </div>
+          <h3 class="hero_subtext">An elegant small business template</h3>
+        </div>
+      </div>
+    </section>
+    <!-- Hero End -->
+
+    <!-- Call To Action Start -->
+    <section>
+      <div class="container-fluid cta">
+        <span>Sign up for our amazing newsletters!</span>
+        <form>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email">
+          <button class="btn btn-primary" type="submit">Sign Up</button>
+        </form>
+      </div>
+    </section>
+    <!-- Call To Action End -->
+
+    <!-- Counter Start -->
+    <section>
+      <div class="container-fluid counter_container">
+        <div class="counter_holder">
+          <span id="CounterOne" class="home_counter"></span>
+          <span id="CounterOneLabel" class="counter_label"></span>
+        </div>
+        <div class="counter_holder">
+          <span id="CounterTwo" class="home_counter"></span>
+          <span id="CounterTwoLabel" class="counter_label"></span>
+        </div>
+        <div class="counter_holder">
+          <span id="CounterThree" class="home_counter"></span>
+          <span id="CounterThreeLabel" class="counter_label"></span>
+        </div>
+      </div>
+    </section>
+    <!-- Counter End -->
+
+    <!-- Front Page Info Start -->
+    <section>
+      <div class="container-fluid front_page_info_container">
+        <div class="card_container">
+          <div class="image_card image_card_one"></div>
+          <div class="text_card">
+            <article>
+              <div class="card_text_container">
+                <h4>Ease-Of-Use</h4>
+                <p>
+                  Since this is a static website, this template will be easy to use. There are many different providers
+                  that allow for static website hosting, you can even host locally if you are able to! Now for some
+                  Lorem Ipsum: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </article>
           </div>
         </div>
-      </nav>
-      <!-- Navigation End -->
+        <div class="card_container">
+          <div class="image_card image_card_two"></div>
+          <div class="text_card text_card_two">
+            <article>
+              <div class="card_text_container">
+                <h4>Edit Easily</h4>
+                <p>
+                  This template uses BootStrap's CDN to serve the library. So all "extra" styling and behavior is done
+                  within local JS and CSS files. Just add or change anything you want and make it your own! Now for some
+                  Lorem Ipsum: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="card_container">
+          <div class="image_card image_card_three"></div>
+          <div class="text_card">
+            <article>
+              <div class="card_text_container">
+                <h4>Pre-Coded Forms</h4>
+                <p>
+                  The call to action and contact forms are both coded and ready to send the data to an external API.
+                  Just make the small changes within the code to point it at the api you will have handling that
+                  information! Now for some Lorem Ipsum: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Front Page Info End -->
+
+    <!-- Testimonials Start -->
+    <section class="testimonials">
+      <div id="carouselIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-block w-100">
+              <div class="testimonial_container">
+                <div class="image_container">
+                  <img src="./Assets/Images/testimonial_one.jpg" alt="Testimonial" class="testimonial_image">
+                </div>
+                <div class="testimonial_text_container">
+                  <cite>Jess S.</cite>
+                  <blockquote>
+                    <p>Superb performance! Bitz did everything I needed it to ask a company and more. Couldn't recommend
+                      more!</p>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="testimonial_container">
+              <div class="image_container">
+                <img src="./Assets/Images/testimonial_two.jpg" alt="Testimonial" class="testimonial_image">
+              </div>
+              <div class="testimonial_text_container">
+                <cite>Mark P.</cite>
+                <blockquote>
+                  <p>Couldn't recommend them more to another client. Seriously, Bravo!</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="testimonial_container">
+              <div class="image_container">
+                <img src="./Assets/Images/testimonial_three.jpg" alt="Testimonial" class="testimonial_image">
+              </div>
+              <div class="testimonial_text_container">
+                <cite>Jeffrey L.</cite>
+                <blockquote>
+                  <p>This was the first time I truly felt like what I wanted was taken into account. Thank you Bitz!</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Testimonials End -->
+
+  </main>
+
+  <section>
+    <footer>
+      <div class="social_media_container">
+        <ul class="social_media_list">
+          <li>
+            <a href="#"><img src="./Assets/Icons/facebook.png" alt="Facebook" /> @Brand</a>
+          </li>
+          <li>
+            <a href="#"><img src="./Assets/Icons/instagram.png" alt="Instagram" /> @Brand</a>
+          </li>
+          <li>
+            <a href="#"><img src="./Assets/Icons/snapchat.png" alt="SnapChat" /> @Brand</a>
+          </li>
+          <li>
+            <a href="#"><img src="./Assets/Icons/linkedin.png" alt="LinkedIn" /> @Brand</a>
+          </li>
+        </ul>
+      </div>
+      <div class="quick_links_container">
+        <ul class="quick_links_list">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">About Bitz</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="quick_links_list">
+          <li>
+            <a href="#">Repository</a>
+          </li>
+          <li>
+            <a href="#">README & Attributions</a>
+          </li>
+          <li>
+            <a href="#">GNU License</a>
+          </li>
+          <li>
+            <a href="#">License Information</a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        &copy;2023 SoftServv Technologies (not really, it's free to use)
+      </div>
+    </footer>
+  </section>
+
+  <!-- Custom JS Scripts -->
+  <script src="./Assets/JS/Counter.js"></script>
 </body>
+
 </html>
