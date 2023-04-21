@@ -9,9 +9,11 @@ This template is freely given under the GNU General Public License. You can free
 ---------------------------------------
 - Bootstrap5 based creation, I used a CDN and kept all changes within local CSS and JS files.
 - Pre-Coded Contact Form, the contact form uses JavaScript to send the form data to an API. Inside the form's JS file, please add the URL for the API handling the emails there.
-- Elegant Design, it is simple yet professional
-- Responsive Design, it will work across device sizes
-- Counter that is adjustable within the Assets/JS/Counter.js file
+- Minimal JavaScript to increase page load speed.
+- Elegant Design, it is simple yet professional.
+- Responsive Design, it will work across device sizes.
+- Counter that is adjustable within the Assets/JS/Counter.js file.
+- Service page with service cards, to add more just copy/paste the container and change it to what you would like.
 
 
 ### Attributions
@@ -22,12 +24,16 @@ Please check out their work, and make sure that you check to see if you have to 
 #### Images
 
 hero_one.jpg: Photo by Andrea Piacquadio: https://www.pexels.com/photo/man-with-headphones-facing-computer-monitor-845451/
+hero_two.jpg: Photo by Zaksheuskaya: https://www.pexels.com/photo/teal-white-and-pink-paint-1561020/
+hero_three.jpg: Photo by Pixabay: https://www.pexels.com/photo/gray-standard-color-book-near-green-eraser-159045/
+hero_four.jpg: Photo by Pixabay: https://www.pexels.com/photo/black-text-on-gray-background-261763/
 front_page_info_one.jpg: Photo by Andrea Piacquadio: https://www.pexels.com/photo/woman-wearing-white-top-while-doing-thumbs-up-3790805/
 front_page_info_two.jpg: Photo by Andrea Piacquadio: https://www.pexels.com/photo/crop-businessman-giving-contract-to-woman-to-sign-3760067/
 front_page_info_three.jpg: Photo by Pixabay: https://www.pexels.com/photo/person-marking-check-on-opened-book-416322/
 testimonial_one.jpg: Photo by Moose Photos: https://www.pexels.com/photo/woman-wearing-pink-collared-half-sleeved-top-1036623/
 testimonial_two.jpg: Photo by Jay Rane: https://www.pexels.com/photo/man-in-white-zip-up-jacket-leaning-on-white-painted-wall-943235/
 testimonial_three.jpg: Photo by nappy: https://www.pexels.com/photo/man-sitting-in-front-of-round-table-while-sipping-from-white-ceramic-mug-936019/
+feature_one.jpg: Photo by Pixabay: https://www.pexels.com/photo/apple-business-cellphone-communication-270694/
 
 
 
@@ -37,6 +43,10 @@ Facebook: Facebook icons created by Freepik - Flaticon - https://www.flaticon.co
 Instagram: Instagram logo icons created by Laisa Islam Ani - Flaticon - https://www.flaticon.com/free-icons/instagram-logo
 LinkedIn: Linkedin icons created by Freepik - Flaticon - https://www.flaticon.com/free-icons/linkedin
 SnapChat: Snapchat icons created by Fathema Khanom - Flaticon - https://www.flaticon.com/free-icons/snapchat
+Quote: Quote icons created by Freepik - Flaticon - https://www.flaticon.com/free-icons/quote
+Bootstrap: Bootstrap icons created by Freepik - Flaticon - https://www.flaticon.com/free-icons/bootstrap
+NextJS: NextJS Icon by icon king1 - Freeicons.io - https://freeicons.io/vector-and-svg-logos-icons-13/nextjs-icon-8814
+Wordpress: Wordpress icons created by Freepik - Flaticon - https://www.flaticon.com/free-icons/wordpress
 
 
 #### Fonts

@@ -213,6 +213,8 @@ body {
 /* Testimonials */
 .testimonials{
     background-color: #6b6b6b;
+    position: relative;
+    z-index: 2;
 }
 
 .testimonial_container{
@@ -249,15 +251,21 @@ body {
 
 .testimonial_text_container blockquote{
     width: 40%;
-    border-left: 10px solid #0d6efd;
-    min-height: 3rem;
-    background-color: #414141;
+    min-height: 6rem;
     color: white;
     padding: 1rem;
 }
 
 blockquote p{
     margin: auto;
+}
+
+.quote_icon{
+    position: absolute;
+    top: 18rem;
+    left: 31rem;
+    z-index: 3;
+    height: 4rem;
 }
 
 /* Footer */
@@ -321,4 +329,177 @@ footer{
     width: 100%;
     text-align: center;
     color: rgb(218, 218, 218);
+}
+
+/* ******** */
+/* Services */
+/* ******** */
+
+/* Service Hero */
+.service_hero_container{
+    height: 15rem;
+    background-image: url('../Images/hero_two.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.service_hero_headline{
+    font-family: 'RobotoSlab-Bold';
+    color: white;
+    font-size: 5rem;
+    margin-top: 4rem;
+    z-index: 3;
+}
+
+/* Services */
+.services_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.service_card{
+    display: inline-block;
+    width: 20%;
+    border: 1px solid rgb(83, 83, 83);
+    box-shadow: 3px 3px 3px rgb(43, 43, 43);
+    border-radius: 5px;
+}
+
+.service_image_container{
+    width: 100%;
+}
+
+.service_image{
+    width: 100%;
+}
+
+.service_text{
+    padding: 5px;
+}
+
+.service_headline{
+    font-family: 'RobotoSlab-Bold';
+}
+
+.service_price{
+    font-family: 'RobotoSlab-Bold';
+}
+
+.service_price span{
+    color: #0d6efd;
+    font-size: large;
+}
+
+.service_text{
+    height: 13rem;
+}
+
+.service_button{
+    text-align: center;
+}
+
+.service_button a{
+    margin: 1rem 0;
+    padding: 10px 15px;
+    font-size: 1.25rem;
+    font-family: 'RobotoSlab-Bold';
+}
+
+/* Service Breakdown */
+.service_item{
+    margin: 1rem 0;
+}
+
+/* ******** */
+/* Features */
+/* ******** */
+
+.feature_layout_hero_container{
+    height: 15rem;
+    background-image: url('../Images/hero_three.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.feature_layout_hero_headline{
+    font-family: 'RobotoSlab-Bold';
+    color: white;
+    font-size: 5rem;
+    margin-top: 4rem;
+    z-index: 3;
+}
+
+.feature_headline{
+    font-family: 'RobotoSlab-Bold';
+}
+
+/* ******** */
+/* Contact  */
+/* ******** */
+
+.contact_hero_container{
+    height: 30rem;
+    background-image: url('../Images/hero_four.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.contact_hero_subtext{
+    font-family: 'RobotoSlab-Bold';
+    color: white;
+    font-size: 2rem;
+    margin-top: 4rem;
+    z-index: 3;
+}
+
+.contact_card{
+    padding: 10px;
+    position: relative;
+}
+
+.loader{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+}
+
+.spinner-border{
+    width: 8rem;
+    height: 8rem;
+    margin-top: 6rem;
+}
+
+.loader_finished{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 2;
+}
+
+.loader_finished h2{
+    margin-top: 8rem;
+    color: rgb(85, 250, 85);
+    z-index: 3;
 }
